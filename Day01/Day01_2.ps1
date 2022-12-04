@@ -21,4 +21,4 @@ $in | ForEach-Object {
         $CurrentCarry = 0
     }
 }
-$maxCarry | Measure-Object -Sum
+$maxCarry | Measure-Object -Sum 
